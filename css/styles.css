@@ -200,5 +200,102 @@ letter-spacing: 0%;
  .technologies {
     padding-left: 30px;
     padding-right:30px ;
+    padding-bottom:68px ;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .technologies h3 {
+    font-family: Montserrat;
+font-weight: 800;
+font-size: 64px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 125px;
+margin-bottom: 45px;
+ }
+.technologies p {
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-align: center;
+margin: 0 auto;
+max-width: 868px;
+}
+.technologies_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 70px;
+    justify-content: center;
+}
+ .technologies_flex h4 {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-align: center;
+border-radius: 18px;
+border: 1px solid #602B7AF5;
+    
+ }
+ .student {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 98px;
+ }
+ .student_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   margin-top: 124px;
+   
+ }
+ .student_flex h3 {
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 48px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 25px;
+ }
+ .student_flex .years {
+    margin-bottom: 42px;
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 25px;
+line-height: 35px;
+letter-spacing: 0%;
  }
 
+ .student_flex li {
+    font-family: Montserrat;
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+letter-spacing: 0%;
+
+ }
+ .student_flex img {
+    border-radius: 25px;
+    width: 320px;
+    height: 369px;
+    object-fit: cover;
+    object-position: center;
+ }
+ .lybimoe:hover{
+    color: deeppink;
+    transition: 1s;
+
+ }
