@@ -296,6 +296,10 @@ letter-spacing: 0%;
  }
  .lybimoe:hover{
     color: deeppink;
-    transition: 1s;
+    transition: 0.5s;
 
  }
+.figma:hover {
+    transition: 0.5s;
+    color: red;
+}
